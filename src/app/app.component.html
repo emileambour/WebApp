@@ -1,0 +1,18 @@
+<ion-app>
+  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title class="ion-text-center">My First Webpage</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding">
+    <div class="center-button">
+      <ion-button (click)="handleClick()"> Click Me </ion-button> 
+      <div *ngIf="message">
+        <p> {{message}}</p>
+      </div>
+    </div>
+  </ion-content>
+
+</ion-app>

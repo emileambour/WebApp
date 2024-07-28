@@ -1,0 +1,21 @@
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;    /* Remove any default margin */
+    padding: 0;   /* Remove any default padding */
+  }
+  
+  .center-button {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .message {
+    margin-top: 16px; /* Space between button and message */
+  }
+  
